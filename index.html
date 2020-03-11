@@ -1,0 +1,23 @@
+<head>
+  <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+
+<!-- for internet explorer above version8 -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+</head>
+
+<body>
+
+    <video id="content_video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto">
+      <source src="https://storage.googleapis.com/gvabox/media/samples/android.mp4"
+          type="video/mp4" ></source>
+          <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+    </video>
+
+    <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script src="./node_modules/videojs-contrib-ads/dist/videojs-contrib-ads.js"></script>
+    <script src="./node_modules/videojs-ima/dist/videojs.ima.js"></script>
+    <script src="ads.js"></script>
+  
+</body>
